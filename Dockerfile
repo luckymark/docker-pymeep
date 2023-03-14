@@ -1,4 +1,4 @@
-FROM continuumio/miniconda
+FROM conda/miniconda3
 
 RUN conda install -c conda-forge openblas=0.3.4 pymeep
 
