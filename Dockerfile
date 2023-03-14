@@ -1,6 +1,6 @@
 FROM continuumio/miniconda
 
-RUN pip3 install pymeep
+RUN conda install pymeep
 
 RUN apt-get update -y && \
   apt-get -y install \
