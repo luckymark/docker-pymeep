@@ -6,5 +6,5 @@ RUN apt-get update -y
 RUN apt-get install -y openmpi-bin
 RUN apt-get -y install \
     openmpi-doc libopenmpi-dev
-RUN apt-get install -y git-all
+RUN apt-get install -y git
 
